@@ -1,1 +1,12 @@
-/* styles go here */
+.block {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.info {
+  display: inline;
+}
+
+.section {
+  margin-bottom: 20px;
+}
