@@ -12,7 +12,6 @@
   </head>
   <body>
     <script type="text/javascript" src="./main.js"></script>
-    <h1>HTML Form</h1>
 
     <form
       action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post"
@@ -41,19 +40,19 @@
         </label>
 
         
-        <label class="block">How old are You
+        <label class="block">How old are You?
           <input
             class="info"
             type="text"
             name="arenum"
             maxlength="3"
-            size="3"
+            size="6"
             value="12"
             required
           >
         </label>
 
-        <label class="block">Full date of birth
+        <label class="block">Full date of birth:
           <input
             class="info"
             type="date"
@@ -85,7 +84,7 @@
           >
         </label>
         
-        <label>Pasword
+        <label>Pasword:
           <input
             class="info"
             type="password"
@@ -101,20 +100,18 @@
       <fieldset class="section">
         <legend>An interesting fact about you!</legend>
 
-        <label class="block">Do you love cats? Yes
+        <label class="block">Do you love cats?
           <input
             class="info"
             type="radio"
             name="c"
-            value="y"
-          >No
+          >Yes
 
           <input
             class="info"
             type="radio"
             name="c"
-            value="n"
-          >
+          >No
         </label>
 
         <label class="block">What is your favorite color?
@@ -126,7 +123,7 @@
         </label>
 
         
-        <label class="block">What time do you go to bed
+        <label class="block">What time do you go to bed?
           <input
             class="info"
             type="time" 
@@ -135,14 +132,14 @@
           >
         </label>
         
-        <label class="block">What are your favorite brand of csrs
+        <label class="block">What are your favorite brand of csrs?
           <select
             name="cars"
             size="3"
           >
-            <option value="bmv">bmv</option>
-            <option value="audi">audi</option>
-            <option value="lada">lada</option>
+            <option value="BMV">bmv</option>
+            <option value="audi">Audi</option>
+            <option value="lada">Lada</option>
           </select>
         </label>
         
@@ -162,9 +159,9 @@
         <label class="block">Coments
           <textarea
             name="comments"
-            cols="30"
-            rows="5"
-            minlength="50"
+            cols="20"
+            rows="2"
+            minlength="150"
             maxlength="200"
          >
           </textarea>
