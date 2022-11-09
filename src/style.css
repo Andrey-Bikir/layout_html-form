@@ -1,13 +1,12 @@
 .block {
   display: block;
-  margin: 10px 0;
+  margin-bottom: 10px;
 }
 
-.info {
-  display: inline;
+.block:last-child {
+  margin-bottom: 0;
 }
 
 .section {
-  margin: 20px 0;
-
+  margin-bottom: 20px;
 }
