@@ -10,3 +10,7 @@
 .section {
   margin-bottom: 20px;
 }
+
+.cat {
+  display: inline-block;
+}
